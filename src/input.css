@@ -13,15 +13,18 @@
         @apply text-xs font-thin;
     }
     .btn {
-        @apply bg-clip-border bg-violet-500 rounded-lg m-2 object-left-bottom object-none;
+        @apply bg-clip-border bg-violet-500 rounded-lg m-2 object-left-bottom object-none hover:bg-violet-600;
     }
     .stat-no{
-        @apply bg-clip-border bg-red-600/75 text-white outline-white outline;
+        @apply bg-clip-content rounded m-2 mt-2 mb-1 font-thin text-xs w-24 box-content container bg-red-600/75 text-white outline-white outline;
     }
     .stat-ye{
-        @apply bg-clip-border bg-green-600/75 text-white outline-white outline;
+        @apply bg-clip-content rounded m-2 mt-2 mb-1 font-thin text-xs w-24 box-content container bg-green-600/75 text-white outline-white outline;
     }
     .stat-may{
-        @apply bg-clip-border bg-orange-600/75 text-white outline-white outline;
+        @apply bg-clip-content bg-orange-600/75 text-white outline-white outline;
+    }
+    .pilltext {
+        @apply bg-clip-content rounded m-2 mt-2 mb-1  container font-thin text-xs w-24 box-content bg-blue-600/75 text-white outline-white outline;
     }
 }

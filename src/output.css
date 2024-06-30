@@ -657,6 +657,167 @@ p {
      object-position: left bottom;
 }
 
+.btn:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(124 58 237 / var(--tw-bg-opacity));
+}
+
+.stat-no {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .stat-no {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .stat-no {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .stat-no {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .stat-no {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .stat-no {
+    max-width: 1536px;
+  }
+}
+
+.stat-no {
+  margin: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+  box-sizing: content-box;
+  width: 6rem;
+  border-radius: 0.25rem;
+  background-color: rgb(220 38 38 / 0.75);
+  background-clip: content-box;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 100;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  outline-style: solid;
+  outline-color: #fff;
+}
+
+.stat-ye {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .stat-ye {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .stat-ye {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .stat-ye {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .stat-ye {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .stat-ye {
+    max-width: 1536px;
+  }
+}
+
+.stat-ye {
+  margin: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+  box-sizing: content-box;
+  width: 6rem;
+  border-radius: 0.25rem;
+  background-color: rgb(22 163 74 / 0.75);
+  background-clip: content-box;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 100;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  outline-style: solid;
+  outline-color: #fff;
+}
+
+.pilltext {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .pilltext {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .pilltext {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .pilltext {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .pilltext {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .pilltext {
+    max-width: 1536px;
+  }
+}
+
+.pilltext {
+  margin: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+  box-sizing: content-box;
+  width: 6rem;
+  border-radius: 0.25rem;
+  background-color: rgb(37 99 235 / 0.75);
+  background-clip: content-box;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 100;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  outline-style: solid;
+  outline-color: #fff;
+}
+
 .m-0 {
   margin: 0px;
 }
@@ -684,6 +845,10 @@ p {
 .columns-3 {
   -moz-columns: 3;
        columns: 3;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-cols-3 {
