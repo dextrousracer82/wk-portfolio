@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .boxybox {
+        @apply container rounded-lg bg-clip-padding bg-black/25 m-10 shadow-lg mt-0;
+    }
+    .minititle{
+        @apply text-xl font-bold;
+    }
+    p {
+        @apply text-xs font-thin;
+    }
+    .btn {
+        @apply bg-clip-border bg-violet-500 rounded-lg m-2 object-left-bottom object-none;
+    }
+    .stat-no{
+        @apply bg-clip-border bg-red-600/75 text-white outline-white outline;
+    }
+    .stat-ye{
+        @apply bg-clip-border bg-green-600/75 text-white outline-white outline;
+    }
+    .stat-may{
+        @apply bg-clip-border bg-orange-600/75 text-white outline-white outline;
+    }
+}
